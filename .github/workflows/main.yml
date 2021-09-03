@@ -34,7 +34,7 @@ jobs:
         
         # You'll want to set this to your domain
         #BASE_URL: https://alexsci.com/test-marp-action/
-        BASE_URL: https://adriancollins.github.io/marp_gh_pages_test
+        BASE_URL: https://adriancollins.github.io/test-marp-action
 
       # consider using a tagged release here
       # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses
