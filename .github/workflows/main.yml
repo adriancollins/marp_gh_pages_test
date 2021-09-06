@@ -30,7 +30,7 @@ jobs:
 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_REPOSITORY: ${{ github.repository }}
-        PUBLISH_TO_BRANCH: master
+        PUBLISH_TO_BRANCH: dev
         
         # You'll want to set this to your domain
         #BASE_URL: https://alexsci.com/test-marp-action/
