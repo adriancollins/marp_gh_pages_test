@@ -5,7 +5,7 @@ class:
   - lead
   - invert
 ---
-
+<!-- paginate: true -->
 
 
 # Some thoughts on a better way to communicate
@@ -82,15 +82,15 @@ Adrian
 ---
 
 # What are our goals?
-* Platform to create communications quickly and simply
-* Modern
-* Easy to collaborate
-* Easy to build
-* Easy to update + report bugs
-* Fits into a workflow
-* Reliable + Reproducible
-* Automate the boring stuff
-* Easy to learn - Content not tooling
+- Platform to create communications quickly and simply
+- Modern
+- Easy to collaborate
+- Easy to build
+- Easy to update + report bugs
+- Fits into a workflow
+- Reliable + Reproducible
+- Automate the boring stuff
+- Easy to learn - Content not tooling
 
 
 ![bg 90% left:20%](./graphics/noun_goal_1715960.svg)
@@ -106,9 +106,99 @@ Adrian
 
 ---
 
+# What can this do?
+
+## Block quotes 
+> Block quote
+> More block quote
+
+*   A list item with a code block:
+
+        <code goes here>
+
+Use the `printf()` function.
+
+---
+
+
+# What can this do?
+*Italicized text*
+
+This text is ***really important bold + italic***
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+
+---
+
+
+# Headers
+
+# H1
+## H2
+### H3
+#### H4
+
+
+
+---
+
+
+
+# Syntax highlight
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+
+---
+
+# Tables
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+---
+
+# Strikethrough
+Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
+
+# Emojii
+:+1: This PR looks great - it's ready to merge 	:smile: 	:ireland:! 
+
+---
+
+# Background Images
+![bg left:33%](https://picsum.photos/720?image=27)
+
+---
+
+![bg right](https://picsum.photos/720?image=3)
+![bg](https://picsum.photos/720?image=20)
+
+# Split + Multiple BGs
+
+The space of a slide content will shrink to the left side.
+
+
+
+
+
+=======
 # Slide 4
 * this is a bullet
 ![bg right](https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif)
 
 ---
+
 
