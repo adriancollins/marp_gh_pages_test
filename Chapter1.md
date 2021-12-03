@@ -69,7 +69,7 @@ Adrian
 ---
 
 
-# Benefits of PowerPoint + Word
+# The challenges with PowerPoint + Word
 * Formatting hell 
 * Not built for Git -  No Git workflow 
 * Tools cost
@@ -102,11 +102,29 @@ Adrian
   * Many large companies opt for an all in Content Management System (CMS) with languages like DITA and DocBook
   * The main selling point of these is content reuse
   * These are very expensive
+* Lots of companies have opted for a Docs as Code model
+  * Based on markdown and centralised around Git to drive process
 
 
 ---
 
-# What can this do?
+# MARP
+* Markdown Presentation Ecosystem
+* https://marp.app/
+* Based on CommonMark
+* Basically a markdown to presentation converter
+* HTML output by default (also PDF and PPTX)
+* Built-in themes and CSS theming
+* Fully open-source
+* Build locally or on GIT 
+* Preview on VSCode
+
+---
+
+
+
+
+# Content Examples
 
 ## Block quotes 
 > Block quote
